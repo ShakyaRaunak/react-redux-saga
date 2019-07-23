@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
+
+import AddToDo from './containers/AddToDo';
+import ToDoListContainer from './containers/ToDoListContainer';
 
 class App extends Component {
   render() {
@@ -7,8 +10,9 @@ class App extends Component {
       <Container>
         <Row className="row">
           <Col xs={12}>
-            <h1>My New React Bootstrap SPA</h1>
-            <Button>Look, I'm a button!</Button>
+            <h1>To Do List</h1>
+            <AddToDo />
+            <ToDoListContainer />
           </Col>
         </Row>
       </Container>

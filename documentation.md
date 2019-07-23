@@ -38,6 +38,13 @@ The next thing you can do is to install and configure React Bootstrap. This libr
 The first one, `redux`, is Redux itself and the second one, `react-redux`, is a library that offers React bindings for Redux.
 
 
+#### Integrating React Components with Redux
 
+After defining Redux elements (actions, reducers, and the store), the next thing you can do is to define the React components that will use these elements. First, you will create two new directories:
+
+* `./src/components`: This is where you will create your Presentational Components (that is, components that are not aware of Redux).
+* `./src/containers`: This is where you will create Container Components (that is, components that tightly integrate to Redux).
+
+To be able to present the to-do items, you will create two Presentation Components: `ToDo` and `ToDoList`. As their names state, the first one will render a single to-do item, while the second one will render a list of to-do items.
 
 
