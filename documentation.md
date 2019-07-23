@@ -24,4 +24,20 @@ The next thing you can do is to install and configure React Bootstrap. This libr
     $ npm install react-bootstrap bootstrap
 
 
+#### Installing PropTypes
+
+> PropTypes exports a range of validators that can be used to make sure the data you (your React components) receive is valid.
+
+    $ npm install --save prop-types
+
+
+#### Installing Redux and Integrating It with React
+
+    $ npm install --save redux react-redux
+
+The first one, `redux`, is Redux itself and the second one, `react-redux`, is a library that offers React bindings for Redux.
+
+
+
+
 
