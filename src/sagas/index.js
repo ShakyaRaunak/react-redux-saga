@@ -27,9 +27,3 @@ export function* loadToDoList() {
 export default function* rootSaga() {
   yield all([loadToDoList()]);
 }
-
-/*
-Note: Sagas are implemented as Generator functions (function*) that yield objects to the redux-saga middleware. The
-yielded objects are a kind of instruction to be interpreted by the middleware. When a Promise is yielded to the
-middleware, the middleware will suspend the Saga until the Promise completes.
- */
