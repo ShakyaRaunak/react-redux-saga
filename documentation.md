@@ -48,3 +48,14 @@ After defining Redux elements (actions, reducers, and the store), the next thing
 To be able to present the to-do items, you will create two Presentation Components: `ToDo` and `ToDoList`. As their names state, the first one will render a single to-do item, while the second one will render a list of to-do items.
 
 
+
+
+#### Managing Side Effects on React with Redux Saga
+
+Now that you have an application that can rely on a single source of truth when it comes to state management. However, one big gap of Redux is that this library does not handle well side effects (like those that AJAX requests provoke). To be able to handle this kind of side effect, you can use Redux Saga.
+
+    $ npm i redux-saga
+
+
+
+
